@@ -3,6 +3,7 @@ body{
 	font-size:20px;
 	padding:0px;
 	margin:0px;	
+	overflow:none;
 }
 header{
 	text-align:center;
@@ -28,6 +29,7 @@ a:hover{
 }
 address{
 	margin-top:400px;
+	float:left;
 }
 .input{
 	float:right;
@@ -46,4 +48,18 @@ button{
 	color:white;
 	border:1px solid #ccc;
 }
-section div{ padding:10px; display:inline;}
+section div{  
+	float:left;
+	padding:5px 6px;
+	width:350px;
+	margin:5px;
+	text-align:center;
+	}
+img{
+	height:500px;
+	width:350px;
+	padding:10px;
+	margin:5px;
+	border-radius:5px;
+	border:2px solid #ccc;
+}
